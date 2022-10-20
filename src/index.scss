@@ -3,12 +3,12 @@
 body {
 	display: flex;
 	height: 100vh;
+	background: wheat;
 }
 
 .column {
 	flex: 1;
 	background: #ccc;
-	border: 1px solid red;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -26,6 +26,7 @@ body {
 	}
 
 	button {
+		outline: none;
 		width: 50px;
 		height: 30px;
 		background: transparent;
